@@ -29,21 +29,27 @@ body{
 
 .yellow-long{
     position: relative;
-    top: 0;
+    top: 56px;
     left: 0;
     z-index: 1;
+    width: 300px;
+    height: 80px;
 }
 
 .people-image{
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 10px;
+    left: 10px;
     z-index: 3;
+    width: 70%;
+    height: 150%;
 }
+
+
 
 .second-images{
     margin-left: 200%;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .third-images{

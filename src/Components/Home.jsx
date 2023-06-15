@@ -41,8 +41,12 @@ function Home() {
       <div className='images-left'>
           <img src={People} alt="" className='people-image'/> 
           <img src={Yellowlong} alt="" className='yellow-long' />
-          <img src={Purplevector} alt="" />
-          <img src={Purplearrow} alt="" />
+          <img src='' alt="" className='purple-vector'/>
+          <img src='' alt="" className='purple-arrow' />
+          </div>
+          <div>
+          <img src={Purplevector} alt="" className='purple-vector'/>
+          <img src={Purplearrow} alt="" className='purple-arrow' />
       </div>
       <div className='second-images'>
         <img src={Greenvector} alt="" />
