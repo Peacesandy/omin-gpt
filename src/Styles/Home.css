@@ -2,8 +2,12 @@
     box-sizing: border-box;
 }
 
+body{
+    background: #111826;
+}
+
 .home-container{
-    width: 300px;
+    width: 500px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -16,4 +20,6 @@
 
 .images-left{
     margin-left: 200%;
+   margin-top: -65%;
 }
+

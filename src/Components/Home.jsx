@@ -2,6 +2,8 @@ import React from 'react'
 import  '../Styles/Home.css'
 import People from '../Assets/pexels-fauxels-3182812 Background Removed 1 (1).png'
 import Yellowlong from '../Assets/Rectangle 13060.png'
+import Whiterectangle from '../Assets/Rectangle 13061 (2).png'
+import Claphands from '../Assets/pexels-kindel-media-7688458 Background Removed 1.png'
 
 function Home() {
   return (
@@ -30,6 +32,10 @@ function Home() {
       <div className='images-left'>
           <img src={People} alt="" className='people-image'/> 
           <img src={Yellowlong} alt="" className='yellow-long' />
+      </div>
+      <div>
+        <img src={Whiterectangle} alt="" />
+        <img src={Claphands} alt="" />
       </div>
     </div>
   )
