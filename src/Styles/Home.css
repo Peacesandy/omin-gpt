@@ -15,6 +15,7 @@ body{
 
 .text-container{
     margin-right: 30% ;
+    color: #FFFFFF;
 }
 
 
@@ -23,3 +24,12 @@ body{
    margin-top: -65%;
 }
 
+.second-images{
+    margin-left: 200%;
+    margin-top: 5%;
+}
+
+.third-images{
+    margin-left: 200%;
+    margin-top: -8%;
+}
