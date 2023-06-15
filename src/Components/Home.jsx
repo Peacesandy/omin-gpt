@@ -1,11 +1,14 @@
 import React from 'react'
+import  '../Styles/Home.css'
+import People from '../Assets/pexels-fauxels-3182812 Background Removed 1 (1).png'
+import Yellowlong from '../Assets/Rectangle 13060.png'
 
 function Home() {
   return (
-    <div>
+    <div className='home-container'>
       <div className='text-container'>
       <div>
-        <h1>Seamless with Omingpt</h1>
+        <h1>Seamless Communication with Omingpt</h1>
       </div>
       <div>
         <h4>Powered by chat gpt-4</h4>
@@ -23,6 +26,10 @@ function Home() {
       <div>
         <button>Show your free trial</button>
       </div>
+      </div>
+      <div className='images-left'>
+          <img src={People} alt="" className='people-image'/> 
+          <img src={Yellowlong} alt="" className='yellow-long' />
       </div>
     </div>
   )
