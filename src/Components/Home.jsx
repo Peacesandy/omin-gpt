@@ -44,7 +44,8 @@ function Home() {
           <img src='' alt="" className='purple-vector'/>
           <img src='' alt="" className='purple-arrow' />
           </div>
-          <div>
+          
+          <div className='purple-left'>
           <img src={Purplevector} alt="" className='purple-vector'/>
           <img src={Purplearrow} alt="" className='purple-arrow' />
       </div>
