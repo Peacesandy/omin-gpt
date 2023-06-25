@@ -64,16 +64,15 @@ body{
 .purple-arrow{
     position: relative;
     z-index: 3;
-     margin-left: 40%;
-     margin-bottom: 10%;
 }
 
 .second-images{
-    margin-left: 200%;
-    margin-top: 10%;
+    margin-left: 100%;
+    margin-top: 20%;
 }
 
 .third-images{
     margin-left: 200%;
     margin-top: -8%;
 }
+
