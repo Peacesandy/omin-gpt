@@ -2,12 +2,11 @@ import React from 'react'
 import  '../Styles/Home.css'
 import People from '../Assets/pexels-fauxels-3182812 Background Removed 1 (1).png'
 import Yellowlong from '../Assets/Rectangle 13060.png'
-import Whiterectangle from '../Assets/Rectangle 13061 (2).png'
 import Claphands from '../Assets/pexels-kindel-media-7688458 Background Removed 1.png'
 import Purplevector from '../Assets/Ellipse 94.png'
 import Purplearrow from '../Assets/Vector (4).png'
 import Greenvector from '../Assets/Ellipse 95.png'
-import Greenarrow from '../Assets/Vector (5).png'
+import Greenarrow from '../Assets/sidegreenarrow.png'
 import Greenrectangle from '../Assets/Rectangle 13058 (1).png'
 import Purplerectangle from '../Assets/Rectangle 13057.png'
 import Techwoman from '../Assets/pexels-andrea-piacquadio-920382 Background Removed 1.png'
@@ -50,13 +49,12 @@ function Home() {
           <img src={Purplearrow} alt="" className='purple-arrow' />
       </div>
       <div className='second-images'>
+      <img src={Greenarrow} alt="" />
         <img src={Greenvector} alt="" />
-          <img src={Greenarrow} alt="" />
-          <img src={Claphands} alt="" />
-        <img src={Whiterectangle} alt="" />
+          <img src={Claphands} alt="" className='claphands'/>
+          <img src={Greenrectangle} alt="" className='greenrectangle'/>
       </div>
       <div className='third-images'>
-        <img src={Greenrectangle} alt="" />
         <img src={Purplerectangle} alt="" />
         <img src={Techwoman} alt="" />
         <img src={Yellowvector} alt="" />
