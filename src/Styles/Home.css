@@ -64,6 +64,8 @@ body{
 .purple-arrow{
     position: relative;
     z-index: 3;
+    margin-left: 20%;
+    margin-bottom: 5%;
 }
 
 .second-images{
@@ -87,6 +89,7 @@ body{
 .claphands{
     position: absolute;
     z-index: 3;
+    margin-left: 15%;
 }
 
 .greenrectangle{
@@ -103,4 +106,25 @@ body{
     margin-top: 10%;
 }
 
+.lastpurple{
+    position: relative;
+    z-index: 1;
+    width: 300px;
+    height: 80px;
+}
+
+.lasttechwoman{
+    margin-right: 100px;
+    z-index: 3;
+    width: 200px;
+}
+
+.lastgreenrectangle{
+    position: relative;
+    z-index: 1;
+    width: 300px;
+    height: 80px;
+    margin-right: 20%;
+    margin-bottom: 20%;
+}
 

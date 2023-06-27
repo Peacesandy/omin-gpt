@@ -10,7 +10,7 @@ import Greenarrow from '../Assets/sidegreenarrow.png'
 import Greenrectangle from '../Assets/Rectangle 13058 (1).png'
 import Purplerectangle from '../Assets/Rectangle 13057.png'
 import Techwoman from '../Assets/pexels-andrea-piacquadio-920382 Background Removed 1.png'
-import Yellowvector from '../Assets/Rectangle 13060.png'
+import Yellowcomment from '../Assets/yellowcomment.png'
 
 
 function Home() {
@@ -55,9 +55,10 @@ function Home() {
           <img src={Greenrectangle} alt="" className='greenrectangle'/>
       </div>
       <div className='third-images'>
-        <img src={Purplerectangle} alt="" />
-        <img src={Techwoman} alt="" />
-        <img src={Yellowvector} alt="" />
+        <img src={Purplerectangle} alt="" className='lastpurple'/>
+        <img src={Techwoman} alt="" className='lasttechwoman'/>
+        <img src={Greenrectangle} alt="" className='lastgreenrectangle'/>
+        <img src={Yellowcomment} alt="" className='lastyellowcomment'/>
       </div>
     </div>
   )
